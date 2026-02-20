@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    /* Brand palette: #526e50 Forest Sage, #de9b3c Warm Amber, #f2ebe6 Soft Linen, #66879a Dusty Steel Blue */
+    --background: 30 33% 93%;
+    --foreground: 30 12% 14%;
+    --card: 115 16% 37%;
+    --card-foreground: 30 12% 14%;
+    --popover: 30 33% 93%;
+    --popover-foreground: 30 12% 14%;
+    --primary: 115 16% 37%;
+    --primary-foreground: 30 33% 96%;
+    --secondary: 32 22% 86%;
+    --secondary-foreground: 32 22% 86%;
+    --muted: 25 18% 89%;
+    --muted-foreground: 32 16% 42%;
+    --accent: 36 71% 55%;
+    --accent-foreground: 30 12% 14%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 32 16% 84%;
+    --input: 32 16% 84%;
+    --ring: 115 16% 37%;
+    --slate-blue: 202 21% 50%;
+    --pale-brown: 30 33% 93%;
+    --pale-orange: 28 42% 93%;
+    --chart-1: 115 16% 37%;
+    --chart-2: 36 71% 55%;
+    --chart-3: 32 22% 49%;
+    --chart-4: 202 21% 50%;
+    --chart-5: 25 33% 70%;
+    --radius: 0.625rem;
+    --sidebar-background: 115 16% 37%;
+    --sidebar-foreground: 30 12% 14%;
+    --sidebar-primary: 115 16% 37%;
+    --sidebar-primary-foreground: 30 33% 96%;
+    --sidebar-accent: 25 18% 89%;
+    --sidebar-accent-foreground: 30 12% 14%;
+    --sidebar-border: 32 16% 84%;
+    --sidebar-ring: 115 16% 37%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+/* All Book a Call / contact CTAs: Warm Amber #de9b3c, black text */
+.btn-book-amber {
+  background-color: #de9b3c !important;
+  color: #000000 !important;
+}
+.btn-book-amber:hover {
+  background-color: #de9b3c !important;
+  opacity: 0.9;
+}
+.btn-book-amber svg {
+  color: #000000 !important;
+}
+
