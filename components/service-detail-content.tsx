@@ -95,10 +95,7 @@ export function ServiceDetailContent({ slug }: { slug: string }) {
                 key={i}
                 className="flex items-start gap-4 rounded-2xl border border-white/20 bg-card p-5 text-left lg:p-6"
               >
-                <div
-                  className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl text-[#66879a]"
-                  style={{ backgroundColor: "rgba(102, 135, 154, 0.25)" }}
-                >
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#f2ebe6] text-[#66879a]">
                   <Check className="h-5 w-5" />
                 </div>
                 <span className="text-primary-foreground">{reason}</span>
@@ -197,14 +194,6 @@ export function ServiceDetailContent({ slug }: { slug: string }) {
                 </ul>
                 {pkg.disclaimer && (
                   <p className="mt-4 text-xs text-primary-foreground/70">{pkg.disclaimer}</p>
-                )}
-                {pkg.highlighted && (
-                  <Link
-                    href="/contact"
-                    className="btn-book-amber mt-6 inline-flex justify-start rounded-lg px-4 py-3 text-sm font-semibold"
-                  >
-                    Book a Call
-                  </Link>
                 )}
               </div>
             ))}
