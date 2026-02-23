@@ -38,9 +38,14 @@ export function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[hsl(var(--pale-brown))] border-b border-border shadow-sm">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
-        <Link href="/" className="flex flex-col items-start gap-2 -mt-1 -ml-14">
-          <Image src="/logo.png" alt="HDE Logo" width={150} height={150} />
-          <span className="font-serif text-xl tracking-tight text-foreground" />
+        <Link href="/" className="flex flex-col items-start gap-2">
+          <Image
+            src="/logo.png"
+            alt="HDE Logo"
+            width={150}
+            height={150}
+            priority
+          />
         </Link>
 
         {/* Desktop */}

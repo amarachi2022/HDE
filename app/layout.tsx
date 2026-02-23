@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   title: "HerDigitalEdge - Operations, AI Support & Project Management for Service-Based Businesses",
   description:
     "Strategic marketing, Operations support & project management for small service-based business owners. Stop juggling everything and start growing with confidence.",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export const viewport: Viewport = {
