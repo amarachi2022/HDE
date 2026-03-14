@@ -110,7 +110,9 @@ export function Navbar() {
             Contact
           </Link>
           <Link
-            href="/contact"
+            href="https://calendly.com/thevirtualprincess/discovery-call"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-book-amber rounded-lg px-5 py-2.5 text-sm font-semibold transition-all"
           >
             Book a Call
@@ -179,7 +181,9 @@ export function Navbar() {
               Contact
             </Link>
             <Link
-              href="/contact"
+              href="https://calendly.com/thevirtualprincess/discovery-call"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-book-amber mt-2 rounded-lg px-5 py-3 text-center text-sm font-semibold transition-all"
             >
               Book a Call

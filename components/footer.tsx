@@ -62,7 +62,7 @@ export function Footer() {
             <ul className="flex flex-col gap-3">
               <li className="flex items-center gap-2 text-sm" style={{ color: paleCream }}>
                 <MdEmail size={18} className="shrink-0" style={{ color: "#66879a" }} />
-                <a href="mailto:hello@herdigitaledge.com" className="transition-colors hover:opacity-80">
+                <a href="mailto:hello@herdigitaledgehq.com" className="transition-colors hover:opacity-80">
                   hello@herdigitaledgehq.com
                 </a>
               </li>

@@ -268,7 +268,9 @@ export function ServiceDetailContent({ slug }: { slug: string }) {
           </div>
           <div className="mt-14 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
-              href="/contact"
+              href="https://calendly.com/thevirtualprincess/discovery-call"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-book-amber group inline-flex items-center gap-2 rounded-lg px-8 py-4 text-base font-semibold transition-all"
             >
               Book a Call

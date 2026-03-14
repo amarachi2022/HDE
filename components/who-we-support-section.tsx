@@ -104,7 +104,9 @@ export function WhoWeSupportSection() {
                   {whoWeSupport[0].description}
                 </p>
                 <Link
-                  href="/contact"
+                  href="https://calendly.com/thevirtualprincess/discovery-call"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn-book-amber group inline-flex items-center gap-2 rounded-lg px-8 py-4 text-base font-semibold transition-all shadow-md"
                 >
                   Book a Call
@@ -152,7 +154,9 @@ export function WhoWeSupportSection() {
                   {whoWeSupport[1].description}
                 </p>
                 <Link
-                  href="/contact"
+                  href="https://calendly.com/thevirtualprincess/discovery-call"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn-book-amber group inline-flex items-center gap-2 rounded-lg px-8 py-4 text-base font-semibold transition-all shadow-md"
                 >
                   Book a Call
@@ -178,7 +182,9 @@ export function WhoWeSupportSection() {
                   {whoWeSupport[2].description}
                 </p>
                 <Link
-                  href="/contact"
+                  href="https://calendly.com/thevirtualprincess/discovery-call"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn-book-amber group inline-flex items-center gap-2 rounded-lg px-8 py-4 text-base font-semibold transition-all shadow-md"
                 >
                   Book a Call
@@ -226,7 +232,9 @@ export function WhoWeSupportSection() {
                   {whoWeSupport[3].description}
                 </p>
                 <Link
-                  href="/contact"
+                  href="https://calendly.com/thevirtualprincess/discovery-call"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn-book-amber group inline-flex items-center gap-2 rounded-lg px-8 py-4 text-base font-semibold transition-all shadow-md"
                 >
                   Book a Call
@@ -252,7 +260,9 @@ export function WhoWeSupportSection() {
                   {whoWeSupport[4].description}
                 </p>
                 <Link
-                  href="/contact"
+                  href="https://calendly.com/thevirtualprincess/discovery-call"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn-book-amber group inline-flex items-center gap-2 rounded-lg px-8 py-4 text-base font-semibold transition-all shadow-md"
                 >
                   Book a Call
@@ -300,7 +310,9 @@ export function WhoWeSupportSection() {
                   {whoWeSupport[5].description}
                 </p>
                 <Link
-                  href="/contact"
+                  href="https://calendly.com/thevirtualprincess/discovery-call"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn-book-amber group inline-flex items-center gap-2 rounded-lg px-8 py-4 text-base font-semibold transition-all shadow-md"
                 >
                   Book a Call

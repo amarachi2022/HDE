@@ -157,7 +157,7 @@ export function ContactContent() {
                 support looks like for your business.
               </p>
               <a
-                href="/contact"
+                href="https://calendly.com/thevirtualprincess/discovery-call"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-book-amber group inline-flex items-center gap-2 rounded-lg px-6 py-3 text-sm font-semibold transition-all"

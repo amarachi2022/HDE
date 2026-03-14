@@ -39,7 +39,9 @@ export function HeroSection() {
 
           <div className="mt-10 flex animate-fade-up flex-wrap items-center justify-center gap-4 [animation-delay:150ms]">
             <Link
-              href="/contact"
+              href="https://calendly.com/thevirtualprincess/discovery-call"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-book-amber group inline-flex items-center gap-2 rounded-lg px-8 py-4 text-base font-semibold transition-all"
             >
               Book a Call
